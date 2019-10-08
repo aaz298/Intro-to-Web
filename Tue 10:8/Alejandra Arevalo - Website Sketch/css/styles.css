@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h4 {
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+  color:#FF7F50;
+}
+
+h5 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1rem;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  line-height: 1.8;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  text-align: center;
+}
+.logo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menu{
+  float:right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.over{
+  position:absolute;
+  bottom: 20px;
+  z-index:-1;
+  text-align: center;
+}
+
+.clickable:hover .over{
+  z-index: 1;
+  text-align: center;
+}
+
+.social{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.iconify{
+  border: 2px solid #FF7F50;
+  padding: 5px 8px;
+  font-size: 20px;
+  margin: 6px 10px 10px 0px;
+  cursor: pointer;
+  border-radius: 10px;
+}
