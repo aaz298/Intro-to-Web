@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+
+  <!--  Must have meta tags-->
+  <meta charset="utf-8">
+  <meta name="description" content="Example">
+  <title>Portfolio - Alejandra Arevalo</title>
+
+  <!-- Really should have these -->
+  <meta name="keywords" content="portfolio, photography,writing, digital art">
+  <meta name="author" content="Alejandra Arevalo">
+
+   <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+   <link rel="stylesheet" href="css/grid.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+   <script src="css/buttons.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+        <div class="row">
+          <div class="col-5 logo">
+            <h1> Alejandra Arevalo </h1>
+          </div>
+          <div class="col-7">
+            <div class="menu">
+              <span class="iconify close" data-icon="ion:menu-outline" data-inline="false" onclick="menuPop();" id="menu"></span>
+              <span class="iconify close" data-icon="ei:close" data-inline="false" style="display:none; float:right;" id="close" onclick="closePop();">
+              </span>
+              </div>
+            </div>
+          </div>
+            <div class="expanded_menu row" id="expanded_menu" style="display:none;position:relative; z-index: 1; background-color: #d9f1f2; height: 550px; text-align: center;">
+              <div><a href="index.html">Home</a></div>
+              <div><a href="photography.html">Photography</a></div>
+              <div><a href="writing.html">Writing</a></div>
+              <div><a href="https://www.google.com" target="_blank">Graphic Design</a></div>
+              <div><a href="about.html"> About </a> </div>
+            </div>
+</header>
+<!-- one row-->
+<div id="homepage">
+<div class="row">
+  <div class="col-12 photo1" style="margin-top:20px;">
+    <a href="https://www.google.com" target="_blank"> <img src="img/junzi1.jpg" alt="Junzi Kitchen"> </a>
+    <div class="my_overheader_l">
+      <h5> FOOD </h5>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 photo2" style="margin-top:20px;">
+    <a href="travel.html"> <img src="img/Shanghai4.jpg" alt="Shanghai"> </a>
+    <div class="my_overheader_r">
+      <h5>  TRAVEL </h5>
+    </div>
+  </div>
+</div>
+<div class="row" >
+  <div class="col-12 photo3">
+  <a href="https://www.google.com" target="_blank"> <img src="img/photoessay1.jpg" alt="March for our Lives"> </a>
+  </div>
+  <div class="my_overheader_l">
+    <h5> PHOTO <br> ESSAYS </h5>
+  </div>
+</div>
+<div class="row" >
+  <div class="col-12 photo4">
+  <a href="https://www.google.com" target="_blank"> <img src="img/fineart1.jpg" alt="Lights and Shadows"> </a>
+  </div>
+  <div class="my_overheader_r">
+  <h5> FINE <br> ART </h5>
+</div>
+</div>
+</div>
+<footer>
+    <div class="col-12 social" style="margin-bottom:20px;">
+      <h4> ---- </h4>
+      <button class="iconify" data-icon="fa-instagram" onclick="window.open('https://www.instagram.com/travel.ale/','_blank')"></button>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
